@@ -61,6 +61,7 @@
     "iostream": "cpp",
     "chrono": "cpp",
     "cstdlib": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "algorithm": "cpp"
   }
 }
