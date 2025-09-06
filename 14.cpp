@@ -7,6 +7,7 @@ int main()
     string line;
     cout << "Postfix expression: ";
     getline(cin, line);
+    
 
     stack<int> st;
     string tok;
