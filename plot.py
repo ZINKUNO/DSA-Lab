@@ -16,4 +16,6 @@ plt.title('Time Complexity Comparison')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.show()
+plt.savefig("plot.png")  # saves the plot as a PNG
+# plt.show()  # optional: comment this out
+

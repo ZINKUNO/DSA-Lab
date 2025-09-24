@@ -52,14 +52,9 @@ int main() {
             optimal(a, x2);
             auto stop2 = high_resolution_clock::now();
             totalOptimal += duration_cast<nanoseconds>(stop2 - start2).count();
-
             // Prevent optimization
             volatile double use1 = x1.back();
             volatile double use2 = x2.back();
         }
-
         cout << n << "," << (totalBrute / REPEATS) << "," << (totalOptimal / REPEATS) << "\n";
-    }
-
-    return 0;
-}
+    }}

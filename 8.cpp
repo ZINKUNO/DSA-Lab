@@ -66,7 +66,7 @@ int main() {
         cout << "Item found at index " << index << ". Deleting...\n";
         deleteItem(arr, item);
     } else {
-        cout << "Item not found. Inserting...\n";
+        cout << "Item not found. Inserting..."<<endl;
         insertSorted(arr, item);
     }
 
